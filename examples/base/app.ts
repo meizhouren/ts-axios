@@ -100,7 +100,7 @@ axios({
   data: searchParams
 })
 
-// tslint:disable-next-line: no-floating-promises
+//  tslint:disable-next-line: no-floating-promises
 axios({
   method: 'post',
   url: '/base/post',
